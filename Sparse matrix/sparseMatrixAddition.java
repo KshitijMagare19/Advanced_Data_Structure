@@ -67,6 +67,8 @@ public class sparseMatrixAddition {
                 }
             }
         }
+
+        System.out.println("Sparse Matrix: \n");
         for (int[] row : c)
             System.out.println(Arrays.toString(row));
 
