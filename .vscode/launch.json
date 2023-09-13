@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "stackUsingArray",
+            "request": "launch",
+            "mainClass": "Stack.stackUsingArray",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "LL",
+            "request": "launch",
+            "mainClass": "LinkedList.LL",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
+            "name": "poly",
+            "request": "launch",
+            "mainClass": "LinkedList.poly",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
+            "name": "sparseMatrix",
+            "request": "launch",
+            "mainClass": "sparseMatrix",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
+            "name": "sparseMatrixAddition",
+            "request": "launch",
+            "mainClass": "sparseMatrixAddition",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
+            "name": "sparseMatrixTranspose",
+            "request": "launch",
+            "mainClass": "sparseMatrixTranspose",
+            "projectName": "Programes_d0c88cdf"
+        }
+    ]
+}
