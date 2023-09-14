@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Find_Length_of_a_Linked_List",
+            "request": "launch",
+            "mainClass": "LinkedList.Problems.Find_Length_of_a_Linked_List",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
             "name": "stackUsingArray",
             "request": "launch",
             "mainClass": "Stack.stackUsingArray",
