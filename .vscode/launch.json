@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "validParenthesis",
+            "request": "launch",
+            "mainClass": "Stack.Application.validParenthesis",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
+            "name": "DLL",
+            "request": "launch",
+            "mainClass": "LinkedList.DLL",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
             "name": "Find_Length_of_a_Linked_List",
             "request": "launch",
             "mainClass": "LinkedList.Problems.Find_Length_of_a_Linked_List",
