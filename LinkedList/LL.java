@@ -24,6 +24,7 @@ public class LL {
         return size;
     }
 
+    // constructor
     public LL() {
         this.size = 0;
     }
@@ -84,9 +85,26 @@ public class LL {
         size--;
     }
 
+    public void deleteVal(int target) {
+        if (head == null) {
+            tail = null;
+            System.out.println("No element prensent for deletion");
+            return;
+        }
+        Node t1 = head;
+        Node prev = null;
+        while (t1.val != target) {
+            prev = t1;
+            t1 = t1.next;
+        }
+        prev.next = t1.next;
+        size--;
+    }
+
     public void deleteLast() {
         if (head == null) {
             System.out.println("No element prensent for deletion");
+            return;
         }
         Node t1 = head;
         Node prev = null;
@@ -119,7 +137,7 @@ public class LL {
         while (curr != null) {
             Node next = curr.next;
             curr.next = prev;
-            // update the nodes          
+            // update the nodes
             prev = curr;
             curr = next;
         }
@@ -170,7 +188,11 @@ public class LL {
         System.out.println("\nReverse LinkedList");
         singlyLinkedList.reverseList();
         singlyLinkedList.display();
-        //System.out.print("null");
+        // System.out.print("null");
+
+        System.out.println("\nDeleting particular value in  LinkedList");
+        singlyLinkedList.deleteVal(20);
+        singlyLinkedList.display();
 
     }
 
