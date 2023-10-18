@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hashingWithReplacement",
+            "request": "launch",
+            "mainClass": "Hashing.hashingWithReplacement",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
+            "name": "skipList",
+            "request": "launch",
+            "mainClass": "SkipList.skipList",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
+            "name": "statickipList",
+            "request": "launch",
+            "mainClass": "SkipList.statickipList",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
+            "name": "Threaded_Binary_Tree",
+            "request": "launch",
+            "mainClass": "Tree.Threaded_Binary_Tree",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
+            "name": "BST",
+            "request": "launch",
+            "mainClass": "Tree.BST",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
+            "name": "hashing",
+            "request": "launch",
+            "mainClass": "Hashing.hashing",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
             "name": "validParenthesis",
             "request": "launch",
             "mainClass": "Stack.Application.validParenthesis",
