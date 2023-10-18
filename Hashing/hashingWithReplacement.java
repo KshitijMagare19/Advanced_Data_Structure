@@ -54,12 +54,6 @@ class HashTableWithLinearProbing {
             index = (index + 1) % size; // Linear probing: move to the next slot
         }
     }
-
-    private void rehash() {
-        // Optional: Implement rehashing logic if needed
-        // This can be used to maintain a compact table after deletions
-    }
-
     public void displayHashTable() {
         for (int i = 0; i < size; i++) {
             if (hashTable[i] != null) {
