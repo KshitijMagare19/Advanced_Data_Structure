@@ -48,7 +48,6 @@ class HashTableWithLinearProbing {
         while (hashTable[index] != null) {
             if (hashTable[index].accountNumber == accountNumber) {
                 hashTable[index] = null;
-                rehash(); // Optional: Rehash to maintain a compact table
                 return;
             }
             index = (index + 1) % size; // Linear probing: move to the next slot
