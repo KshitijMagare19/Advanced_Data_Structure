@@ -4,17 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
 
-class Edge implements Comparable<Edge> {
+class Edge {
     int source, destination, weight;
 
     public Edge(int source, int destination, int weight) {
         this.source = source;
         this.destination = destination;
         this.weight = weight;
-    }
-
-    public int compareTo(Edge other) {
-        return Integer.compare(this.weight, other.weight);
     }
 }
 
@@ -38,7 +34,7 @@ public class MinimumSpanningTree {
 
     public List<Edge> primMST() {
         boolean[] visited = new boolean[numVertices];
-        PriorityQueue<Edge> minHeap = new PriorityQueue<>();
+        PriorityQueue<Edge> minHeap = new PriorityQueue<>((edge1, edge2) -> Integer.compare(edge1.weight, edge2.weight));
         List<Edge> mstEdges = new ArrayList<>();
 
         // Start with the first vertex
@@ -88,4 +84,3 @@ public class MinimumSpanningTree {
         System.out.println("\nTotal Cost: " + totalCost);
     }
 }
-
