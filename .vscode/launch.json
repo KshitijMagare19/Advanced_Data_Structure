@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumSpanningTree",
+            "request": "launch",
+            "mainClass": "Graph.MinimumSpanningTree",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
+            "name": "DictionaryBST",
+            "request": "launch",
+            "mainClass": "Graph.DictionaryBST",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
+            "name": "graph",
+            "request": "launch",
+            "mainClass": "Graph.graph",
+            "projectName": "Programes_d0c88cdf"
+        },
+        {
+            "type": "java",
             "name": "hashingWithReplacement",
             "request": "launch",
             "mainClass": "Hashing.hashingWithReplacement",
